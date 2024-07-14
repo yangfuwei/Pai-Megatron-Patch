@@ -22,3 +22,6 @@
 [submodule "Megatron-LM-240705-Performance-Booster"]
 	path = Megatron-LM-240705-Performance-Booster
 	url = https://github.com/jerryli1981/Megatron-LM-240705-Performance-Booster
+[submodule "Megatron-LM"]
+	path = Megatron-LM
+	url = https://github.com/ROCm/Megatron-LM/tree/renwuli/disable_te_qwen

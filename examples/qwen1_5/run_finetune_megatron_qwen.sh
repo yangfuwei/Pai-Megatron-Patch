@@ -230,6 +230,7 @@ megatron_options="  \
         --untie-embeddings-and-output-weights \
         --rotary-base 1000000 \
         --rotary-scale-factor 1 \
+        --no-gradient-accumulation-fusion \
         "
 
 run_cmd="torchrun $DISTRIBUTED_ARGS pretrain_mcore_qwen.py
